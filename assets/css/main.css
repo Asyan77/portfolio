@@ -185,11 +185,14 @@ input, select, textarea {
 	}
 
 	.rows {
+		display: inline-block;
 		display: flex;
 		justify-content: space-between;
-		width: 530px;
+		align-items: center;
+		width: 600px;
+		height: 80px;
 		/* background-color: purple; */
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 	
 	.skills-mini-box {
@@ -200,17 +203,20 @@ input, select, textarea {
 		align-items: center;
 		color: white;
 		/* background-color: pink; */
-		width: 90px;
-		height: 90px;
-		/* margin-left: 20px; */
+		width: 89px;
+		height: 70px;
+		margin-left: 20px;
 		
 
 	}
 	
 
 	.skill-icon {
-		height: 60px;
-		width: 60px;
+		height: 50px;
+		width: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 /* Container */
@@ -1402,6 +1408,7 @@ input, select, textarea {
 
 				.row > .col-12-narrower {
 					width: 100%;
+		
 				}
 
 				.row > .off-12-narrower {
@@ -2084,7 +2091,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		list-style: none;
-		padding-left: 0;
+		/* padding-left: 40px; */
 	}
 
 		/* ul.featured-icons li {
