@@ -190,6 +190,7 @@ input, select, textarea {
 		justify-content: space-between;
 		align-items: center;
 		width: 600px;
+		/* min-width: 500px; */
 		height: 80px;
 		/* background-color: purple; */
 		margin-top: 30px;
@@ -204,12 +205,9 @@ input, select, textarea {
 		color: white;
 		/* background-color: pink; */
 		width: 89px;
-		height: 70px;
+		height: 90px;
 		margin-left: 20px;
-		
-
 	}
-	
 
 	.skill-icon {
 		height: 50px;
@@ -473,6 +471,8 @@ input, select, textarea {
 		.row.gtr-50 {
 			margin-top: -25px;
 			margin-left: -25px;
+			/* background-color: rgb(202, 50, 202); */
+			/* width: 75vw; */
 		}
 
 			.row.gtr-50 > * {
@@ -2091,6 +2091,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		list-style: none;
+		/* background-color: red; */
 		/* padding-left: 40px; */
 	}
 
@@ -2360,6 +2361,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		height: 50px;
 	}
 
 		#header h1 {
