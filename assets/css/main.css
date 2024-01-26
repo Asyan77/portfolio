@@ -2579,7 +2579,7 @@ input, select, textarea {
 		background-color: #8e818b;
 		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
 		/* background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background1.png'); */
-		background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background11.png');
+		background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background18.png');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2611,6 +2611,7 @@ input, select, textarea {
 
 			#banner .inner header {
 				display: inline-block;
+				/* border-top: solid 2px; */
 				border-bottom: solid 2px;
 				/* border-top: solid 2px; */
 				margin: 0 0 2em 0;
