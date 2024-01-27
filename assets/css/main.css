@@ -305,6 +305,7 @@ input, select, textarea {
 
 .sports {
 	margin-top: -200px;
+	width: 170px;
 }
 
 .sports-outer-box {
@@ -346,8 +347,44 @@ input, select, textarea {
 /* Travel PICS */
 
 .travel {
-	width: 250px;
+	width: 220px;
 	margin-top: -250px;
+}
+
+/* FURBABES */
+
+.furbabes{
+	margin-top: -300px;
+	width: 170px;
+}
+
+.gang {
+	display: flex;
+	justify-content: center;
+}
+
+.pets{
+	display: flex;
+	justify-content: center;
+}
+
+.pet-title{
+	text-align: center;
+}
+
+.frankie {
+height: 600px;
+}
+
+.olaf {
+	width: 500px;
+	padding-left: 10px;
+	padding-left: 10px;
+}
+
+.ellie{
+	width: 500px;
+
 }
 
 /* Container */
