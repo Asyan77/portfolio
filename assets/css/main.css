@@ -216,6 +216,189 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 	}
+ /* READING SECTION  */
+	.reading {
+		height: 200px;
+		margin-top: -200px;
+	}
+	.book-list {
+		position: relative;
+		width: 70vw;
+	}
+	.book-box {
+		display: flex;
+		margin-right: 20px;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.book1-border {
+		border: rgb(223, 159, 218) solid 3px;
+		margin-right: 20px;
+	}
+	.book2-border {
+		border: rgb(137, 220, 146) solid 3px;
+	}
+
+	.book3-border {
+		border: rgb(218, 169, 64) solid 3px;
+	}
+
+	.book4-border {
+		border: rgb(64, 156, 218) solid 3px;
+	}
+
+	.book5-border {
+		border: rgb(229, 134, 166) solid 3px;
+	}
+
+	.book1-text {
+		padding-right: 20px;
+
+	}
+
+	.book2-text {
+		padding-left: 20px;
+
+	}
+	
+
+	.kite-runner {
+		width: 12vw;
+		margin-right: 30px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.new-earth {
+		width: 18vw;
+		margin-right: 30px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.breath {
+		width: 12vw;
+		/* height: 45vh; */
+		margin-right: 30px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.quiet {
+		width: 11vw;
+		/* height: 45vh; */
+		margin-right: 30px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.bittersweet {
+		width: 11vw;
+		/* height: 45vh; */
+		margin-right: 30px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+/* SPORTS SECTION */
+
+.sports {
+	margin-top: -200px;
+}
+
+.sports-outer-box {
+	display: flex;
+	flex-direction: column;
+	width: 70vw;
+	/* background-color: #3fb1a3; */
+}
+
+.sports-box1 {
+	display: flex;
+	flex-direction: row;
+	/* background-color: purple; */
+	justify-content: space-between;
+	/* flex-direction: column; */
+}
+
+.sports-box1 img {
+	width: 300px;
+	height: 450px;
+}
+
+.sports-box2 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	/* background-color: purple; */
+	justify-content: space-between;
+	/* flex-direction: column; */
+}
+
+.sports-box2 img {
+	width: 400px;
+	height: 300px;
+}
+
+.sports-box3 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	/* background-color: purple; */
+	justify-content: space-between;
+	/* flex-direction: column; */
+}
+
+.sports-box3 img {
+	width: 400px;
+	height: 300px;
+}
+
+.sports-box4 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	/* background-color: purple; */
+	justify-content: space-between;
+	/* flex-direction: column; */
+}
+
+.sports-box4 img {
+	width: 400px;
+	height: 300px;
+}
+
+.sports-title {
+	text-align: center;
+}
+
+/* CLIMBING PICS */
+.long {
+	height: 400px;
+	width: 250px;
+}
+
+.wide{
+	width: 510px;
+}
+
+/* BJJ PICS */
+
+.bjj-box{
+	display: flex;
+}
+
+.bjj-wide {
+	width: 300px;
+}
+
+.bjj-long {
+	width: 350px;
+	height: 460px;
+	margin-left: 10px;
+}
+
 
 /* Container */
 .growing {
