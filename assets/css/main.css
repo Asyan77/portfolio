@@ -277,6 +277,7 @@ margin-left: 20px;
 }
 
 
+
  /* READING SECTION  */
 	.reading {
 		height: 170px;
@@ -291,26 +292,45 @@ margin-left: 20px;
 		margin-right: 20px;
 		justify-content: center;
 		align-items: center;
+
 	}
 	
 	.book1-border {
-		border: rgb(223, 159, 218) solid 3px;
+		border-bottom: rgb(223, 159, 218) solid 3px;
+		border-right: rgb(223, 159, 218) solid 3px;
+		border-left: rgb(223, 159, 218) solid 3px;
 		margin-right: 20px;
+		border-top: none;
 	}
 	.book2-border {
-		border: rgb(137, 220, 146) solid 3px;
+		border-bottom: rgb(137, 220, 146) solid 3px;
+		border-right: rgb(137, 220, 146) solid 3px;
+		border-left: rgb(137, 220, 146) solid 3px;
 	}
 
 	.book3-border {
-		border: rgb(218, 169, 64) solid 3px;
+		/* border: rgb(218, 169, 64) solid 3px; */
+		border-bottom: rgb(218, 169, 64) solid 3px;
+		border-right:rgb(218, 169, 64)solid 3px;
+		border-left:rgb(218, 169, 64)solid 3px;
 	}
 
 	.book4-border {
-		border: rgb(64, 156, 218) solid 3px;
+		border-bottom: rgb(64, 156, 218) solid 3px;
+		border-right: rgb(64, 156, 218) solid 3px;
+		border-left: rgb(64, 156, 218) solid 3px;
 	}
 
 	.book5-border {
-		border: rgb(229, 134, 166) solid 3px;
+		border-bottom: rgb(229, 134, 166) solid 3px;
+		border-right: rgb(229, 134, 166) solid 3px;
+		border-left: rgb(229, 134, 166) solid 3px;
+	}
+
+	.book6-border {
+		border-bottom:rgb(109, 22, 223)  solid 3px;
+		border-right:rgb(109, 22, 223)  solid 3px;
+		border-left: rgb(109, 22, 223) solid 3px;
 	}
 
 	.book1-text {
@@ -2897,9 +2917,9 @@ height: 600px;
 		}
 
 		#main .sidebar section {
-			border-top: solid 1px rgba(124, 128, 129, 0.2);
+			/* border-top: solid 1px rgba(124, 128, 129, 0.2); */
 			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			/* padding: 3em 0 0 0; */
 		}
 
 			#main .sidebar section:first-child {
@@ -3630,4 +3650,22 @@ height: 600px;
 				height: 34px;
 			}
 
+	}
+
+	.happy{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 80vw;
+	}
+
+	.happy-box img{
+		width: 400px;
+		height: 650px;
+	}
+
+	.happy-eating {
+		width: 191px;
 	}
