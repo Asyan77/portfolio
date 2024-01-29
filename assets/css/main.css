@@ -216,6 +216,67 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 	}
+
+/* ASHYANS SECTION */
+
+.ashyan {
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+	border: solid 2px;
+	margin-top: -150px;
+}
+
+.ashyan1-text{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.ashyan2-text{
+margin-right: 20px;
+margin-left: 20px;
+}
+
+.ashyan1{
+	width: 240px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	height: 200px;
+}
+
+
+.ashyan3 {
+	width: 180px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ashyan4 {
+	width: 240px;
+	padding-bottom: 20px;
+	/* padding-left: 20px; */
+	padding-right: 20px;
+	height: 200px;
+}
+
+.ashyan5 {
+	width: 220px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	/* padding-right: 20px; */
+	/* height: 200px; */
+}
+
+.ashyan6 {
+	width: 240px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 200px;
+}
+
+
  /* READING SECTION  */
 	.reading {
 		height: 170px;
@@ -2754,7 +2815,7 @@ height: 600px;
 		background-color: #8e818b;
 		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
 		/* background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background1.png'); */
-		background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background11.png');
+		background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background24.png');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
