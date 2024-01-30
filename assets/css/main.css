@@ -299,9 +299,8 @@ margin-left: 20px;
 		border-bottom: rgb(223, 159, 218) solid 3px;
 		border-right: rgb(223, 159, 218) solid 3px;
 		border-left: rgb(223, 159, 218) solid 3px;
-		margin-right: 20px;
-		border-top: none;
 	}
+
 	.book2-border {
 		border-bottom: rgb(137, 220, 146) solid 3px;
 		border-right: rgb(137, 220, 146) solid 3px;
@@ -345,21 +344,19 @@ margin-left: 20px;
 	
 
 	.kite-runner {
-		width: 12vw;
+		width: 10vw;
 		margin-right: 30px;
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
 
 	.new-earth {
-		width: 18vw;
-		margin-right: 30px;
-		padding-left: 20px;
+		width: 13vw;
 		padding-bottom: 20px;
 	}
 
 	.breath {
-		width: 12vw;
+		width: 10vw;
 		/* height: 45vh; */
 		margin-right: 30px;
 		padding-left: 20px;
@@ -367,16 +364,16 @@ margin-left: 20px;
 	}
 
 	.quiet {
-		width: 11vw;
+		width: 9.5vw;
 		/* height: 45vh; */
-		margin-right: 30px;
+		margin-right: 20px;
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
 
 	.bittersweet {
-		width: 11vw;
-		/* height: 45vh; */
+		width: 10vw;
+		/* height: 35vh; */
 		margin-right: 30px;
 		padding-left: 20px;
 		padding-bottom: 20px;
@@ -424,6 +421,10 @@ margin-left: 20px;
 	height: 300px;
 }
 
+.inner-img{
+	padding-left: 10px;
+
+}
 
 .sport7 {
 	margin-top: 12px;
@@ -470,6 +471,7 @@ height: 600px;
 
 .ellie{
 	width: 500px;
+	padding-left: 10px;
 
 }
 
