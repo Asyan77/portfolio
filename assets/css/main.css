@@ -187,13 +187,13 @@ input, select, textarea {
 	.rows {
 		display: inline-block;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
-		width: 600px;
-		/* min-width: 500px; */
+		width: 100%;
 		height: 80px;
-		/* background-color: purple; */
 		margin-top: 30px;
+		/* min-width: 500px; */
+		/* background-color: purple; */
 	}
 	
 	.skills-mini-box {
@@ -203,10 +203,10 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 		color: white;
-		/* background-color: pink; */
 		width: 89px;
 		height: 90px;
-		margin-left: 20px;
+		/* background-color: pink; */
+	
 	}
 
 	.skill-icon {
@@ -552,6 +552,19 @@ height: 600px;
 		}
 
 /* Row */
+:root {
+	--gradient: linear-gradient(
+		45deg,
+		#845ec2,
+		#d65db1,
+		#ff6f91,
+		#ff9671,
+		#ffc75f,
+		#f9f871
+
+		
+	)
+}
 
 	.row {
 		display: flex;
@@ -621,7 +634,7 @@ height: 600px;
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50.33333%;
 		}
 
 		.row > .off-4 {
@@ -653,7 +666,10 @@ height: 600px;
 		}
 
 		.row > .col-8 {
-			width: 46.66667%;
+			width: 30.66667%;
+			margin-right: 55px;
+			/* background-color: rgb(206, 206, 182); */
+			border: white solid 2px;
 		}
 
 		.row > .off-8 {
@@ -727,10 +743,26 @@ height: 600px;
 				}
 
 		.row.gtr-50 {
-			margin-top: -25px;
-			margin-left: -25px;
+			/* background-color: red; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/* padding-left: 1em; */
+			/* border: red solid 3px; */
+			/* margin-top: -25px; */
+			/* margin-left: -25px; */
 			/* background-color: rgb(202, 50, 202); */
-			/* width: 75vw; */
+			/* background: linear-gradient(90deg,yellow,#4b9dc1, pink,yellow 100%); */
+			/* background-position: left;
+			transition: background 1s ease;  */
+			/* padding-top: 4em; */
+			width: 100%;
+			height: 100%;
+	
+		}
+
+		.row.gtr-50:hover {
+			background-position: right;
 		}
 
 			.row.gtr-50 > * {
@@ -744,11 +776,6 @@ height: 600px;
 				.row.gtr-50.gtr-uniform > * {
 					padding-top: 25px;
 				}
-
-		.row {
-			margin-top: -50px;
-			margin-left: -50px;
-		}
 
 			.row > * {
 				padding: 50px 0 0 50px;
@@ -866,7 +893,7 @@ height: 600px;
 				}
 
 				.row > .col-4-wide {
-					width: 33.33333%;
+					width: 50.33333%;
 				}
 
 				.row > .off-4-wide {
@@ -1045,6 +1072,7 @@ height: 600px;
 
 			.row {
 				display: flex;
+				/* flex-direction: column; */
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1778,6 +1806,12 @@ height: 600px;
 		}
 
 		@media screen and (max-width: 736px) {
+			.ashley {
+				height: 200px;
+				width: 200px;
+				border-radius: 150px;
+				border: solid 2px;
+			}
 
 			.row {
 				display: flex;
@@ -1953,8 +1987,10 @@ height: 600px;
 						}
 
 				.row.gtr-50 {
-					margin-top: -15px;
-					margin-left: -15px;
+					/* margin-top: -15px; */
+					/* margin-left: -15px; */
+					width: 100%;
+					/* background-color: red; */
 				}
 
 					.row.gtr-50 > * {
@@ -1968,6 +2004,23 @@ height: 600px;
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 15px;
 						}
+				.rows {
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					height: 30%;
+					/* background-color: lightcyan; */
+				}
+
+				.skills-mini-box {
+					width: 46em;
+					/* background-color: pink; */
+					margin-left: 1;
+				}
+
+				.skill-icon {
+					width: 3em;
+				}
 
 				.row {
 					margin-top: -30px;
@@ -2343,13 +2396,19 @@ height: 600px;
 /* Featured Icons */
 
 	ul.featured-icons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		cursor: default;
-		margin: -0.75em 0 0 0;
+		margin-right: 5000px;
+		/* margin: -0.75em 0 0 0; */
 		/* opacity: 0.35; */
 		overflow: hidden;
 		position: relative;
 		list-style: none;
-		/* background-color: red; */
+		width: 110%;
+		min-width: 350px;
+		/* background-color: rgb(203, 189, 94); */
 		/* padding-left: 40px; */
 	}
 
@@ -2511,7 +2570,7 @@ height: 600px;
 
 	.wrapper {
 		margin-bottom: 5em;
-		padding: 5em;
+		/* padding: 5em; */
 	}
 
 		.wrapper.style1 {
@@ -2519,12 +2578,20 @@ height: 600px;
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
-			color: #fff;
+			/* background-color: #83d3c9; */
+			/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"); */
+			/* background-position: bottom left, bottom right; */
+			/* background-repeat: no-repeat, no-repeat; */
+			height: 25em;
+			background: linear-gradient(90deg,#83d3c9, rgb(210, 133, 210), rgb(220, 220, 142), rgb(94, 193, 97),#83d3c9 100%);
+			background-size: 300%;
+			color: #fffefe;
+			background-position: left;
+			transition: background 1s ease; 
+		}
+
+		.wrapper.style2:hover {
+			background-position: right;
 		}
 
 			.wrapper.style2 input[type="button"]:hover,
@@ -2837,7 +2904,7 @@ height: 600px;
 		background-color: #8e818b;
 		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
 		/* background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background1.png'); */
-		background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background24.png');
+		background-image: url('images/light-tl.svg'),  url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/background11.png');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -3566,8 +3633,12 @@ height: 600px;
 				}
 
 				.wrapper.style2 {
-					background-size: 10em;
+					background-size: 300%;
 					padding: 2.25em 1.5em;
+					/* display: flex; */
+					/* flex-direction: column; */
+					/* background-color: red; */
+					height: 100%;
 				}
 
 				.wrapper.style4 {
